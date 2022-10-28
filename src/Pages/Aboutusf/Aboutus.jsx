@@ -1,10 +1,13 @@
-import React from 'react'
-import './Aboutus.css'
+import React from "react";
+import Oheader from "../../components/Otherheaderf/Oheader";
+// import './Aboutus.css'
 
 const Aboutus = () => {
   return (
-    <div className='about'>Aboutus</div>
-  )
-}
+    <div>
+      <Oheader />
+    </div>
+  );
+};
 
-export default Aboutus
+export default Aboutus;

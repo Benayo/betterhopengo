@@ -33,14 +33,14 @@ const Header = ({
           to="/"
           className={`${classes["nav__link--active"]} ${classes["nav__li"]}`}
         >
-          {listone}
+          Home
         </Link>
 
         <Link className={classes["nav__li"]} to="/Campaigns">
           {listtwo}
         </Link>
 
-        <Link className={classes["nav__li"]} to="/About Us">
+        <Link className={classes["nav__li"]} to="/Aboutus">
           {listthree}
         </Link>
         <Link className={classes["nav__li"]} to="/Faq">
