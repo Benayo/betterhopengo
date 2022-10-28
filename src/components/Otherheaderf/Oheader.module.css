@@ -39,7 +39,7 @@
 }
 
 .resume__heading__sub {
-  @apply w-[15rem] h-[6rem]  flex justify-center items-center;
+  @apply w-[15rem] h-[3rem]  flex justify-center items-center;
 }
 
 .header {
