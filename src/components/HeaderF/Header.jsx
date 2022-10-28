@@ -52,13 +52,13 @@ const Header = ({
       </ul>
 
       <div className={classes["nav__actions"]}>
-        <Link to="/auth/login">
+        <Link to="">
           <button className={`${classes.btn} ${classes["btn__stroke"]}`}>
             Register your NGO
           </button>
         </Link>
 
-        <Link to="/auth/sign-up">
+        <Link to="/Donate">
           <button className={`${classes.btn} ${classes["btn__full"]}`}>
             Donate Now
           </button>

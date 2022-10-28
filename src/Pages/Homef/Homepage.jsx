@@ -27,7 +27,6 @@ const Homepage = () => {
         sectiondonate="Donate Now"
         donatesideplay="See NGO's/Foundation"
       />
-      {/* <Campaigns /> */}
       <Campaignshome />
       <OngoingCampaign />
       <TrustedPartners />
