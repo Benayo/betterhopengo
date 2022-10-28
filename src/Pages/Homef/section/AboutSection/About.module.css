@@ -1,0 +1,47 @@
+.container {
+  @apply flex justify-center items-center my-[6rem] px-[1rem] md:px-[6.25rem];
+}
+
+.about__container {
+  @apply grid md:grid-cols-2 my-10;
+}
+
+.about__text__box {
+  @apply order-2  flex flex-col justify-center items-start px-20;
+}
+
+.text--main {
+  @apply text-base  font-bold text-[#8BC34A] mb-6;
+}
+
+h1 {
+  @apply text-[2rem] text-[#214228] font-bold leading-snug mb-4;
+}
+
+.about__text p {
+  @apply text-xs  text-[#7F7F7F] lg:text-sm leading-6 lg:leading-8;
+}
+
+.inline__text {
+  @apply font-medium no-underline  cursor-pointer;
+}
+
+.btn {
+  @apply text-sm md:text-base text-center cursor-pointer md:w-fit font-normal  mt-8 md:mt-11 rounded-md   px-4 py-2.5  lg:px-8 md:py-3    bg-[#8BC34A] text-white;
+}
+
+.btn:hover {
+  @apply shadow-2xl;
+}
+
+.image__container {
+  @apply flex flex-col justify-end items-center  object-top order-1 rounded-md overflow-hidden bg-center;
+}
+
+.image1 {
+  @apply rounded-2xl;
+}
+
+.image2 {
+  @apply absolute w-[12.25rem]  h-[12.25rem] bg-cover  rounded-full border-8  border-white  left-24     z-10;
+}

@@ -1,0 +1,11 @@
+.container {
+  @apply min-h-[35vh]   px-6 md:px-12 lg:px-[6.25rem] flex flex-col  items-center;
+}
+
+.text--main {
+  @apply text-[2rem]  font-bold  pb-8 text-[#214228];
+}
+
+.sub--container {
+  @apply bg-[#E7FDCD] w-screen px-[3.5rem] py-[3rem] flex justify-between items-center;
+}

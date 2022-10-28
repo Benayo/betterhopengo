@@ -1,0 +1,35 @@
+.container {
+  @apply min-h-[75vh]   px-6 md:px-12 lg:px-[6.25rem] flex flex-col;
+}
+
+.text--container {
+  @apply text-center mb-[3.75rem];
+}
+
+.text--main {
+  @apply text-[2rem]  font-bold  pb-4 text-[#214228];
+}
+
+.text--sub {
+  @apply mx-[20rem] text-center text-base text-gray-600;
+}
+
+.card--section {
+  @apply w-full flex justify-center items-center;
+}
+
+.card {
+  @apply w-[18.75rem] mx-4 rounded-2xl text-center flex flex-col items-center justify-center px-4 py-8 shadow-xl;
+}
+
+.image {
+  @apply p-4 bg-[#214228] rounded-full mb-4;
+}
+
+.card--text--main {
+  @apply text-sm  font-bold mb-2;
+}
+
+.card--text--sub {
+  @apply text-xs  font-light;
+}

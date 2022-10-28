@@ -1,0 +1,47 @@
+.container {
+  @apply min-h-[75vh]   px-6 md:px-12 lg:px-[6.25rem] flex flex-col;
+}
+
+.text--main {
+  @apply text-[2rem]  font-bold   text-[#214228] mb-[1.75rem];
+}
+
+.text--container {
+  @apply mb-[1.75rem];
+}
+
+.text--main {
+  @apply text-[2rem]  font-bold  pb-4 text-[#214228];
+}
+
+.card--container {
+  @apply flex justify-center items-center  w-full;
+}
+
+.card {
+  @apply w-full px-8;
+}
+
+.card--image {
+  @apply w-full;
+}
+
+.image {
+  @apply w-full;
+}
+
+/* .image-details {
+  @apply absolute  bottom-[5rem] z-20;
+} */
+
+.details--main-text {
+  @apply text-[#214228] text-center py-4 text-base font-bold ;
+}
+
+.details--sub-text {
+  @apply text-[#7F7F7F]   text-sm font-normal;
+}
+
+.more {
+  @apply text-[#8BC34A] text-base font-bold py-4;
+}

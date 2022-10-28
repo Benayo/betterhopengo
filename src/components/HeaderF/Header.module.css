@@ -1,0 +1,156 @@
+nav {
+  @apply z-20 flex justify-between items-center px-6 lg:px-[2.5rem] py-4 bg-[#214228]  fixed w-full;
+}
+
+.nav__ul {
+  @apply hidden cursor-pointer py-4 md:flex justify-center items-center text-white text-sm xl:text-base font-extralight;
+}
+
+.nav__li {
+  @apply md:py-0 px-4 xl:px-8 hover:text-[#8BC34A];
+}
+
+.nav__actions {
+  @apply hidden md:flex justify-center items-start text-sm xl:text-base text-white;
+}
+
+.btn {
+  @apply py-2  px-4  lg:py-2 lg:px-8 cursor-pointer;
+}
+
+.btn__stroke {
+  @apply text-white;
+}
+
+.btn__stroke:hover {
+  @apply text-[#C0D647];
+}
+
+.btn__full {
+  @apply rounded-md border  bg-[#C0D647]  xl:ml-2 text-[#214228];
+}
+
+.btn__full:hover {
+  @apply bg-[#8BC34A];
+}
+
+.menu {
+  @apply h-10 w-10  md:hidden cursor-pointer text-white;
+}
+
+.header {
+  background-color: #214228;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 200;
+  padding: 0px 40px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  background-image: url("../../UI/images/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: fit;
+
+  width: 20rem;
+  height: 3rem;
+}
+
+.list {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 70px;
+}
+
+.list ul {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-weight: 400;
+  font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+  .list li {
+    display: none;
+  }
+
+  .rightheader h4 {
+    display: none;
+  }
+
+  .hbutton {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+
+.list li {
+  list-style: none;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.list li:hover {
+  transition: all linear 0.7s;
+  background-color: rgb(72, 167, 72);
+  border: solid rgb(135, 161, 135) 1px;
+  cursor: pointer;
+}
+
+.rightheader {
+  background-color: rgb(47, 0, 255);
+  display: flex;
+  border: solid yellow 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15rem;
+  min-width: 20%;
+  height: 100%;
+}
+
+.rightheader h4 {
+  cursor: pointer;
+  color: white;
+  margin-right: 5px;
+  border: solid green 2px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.rightheader h4:hover {
+  transition: all linear 0.7s;
+  background-color: rgb(72, 167, 72);
+  border: solid rgb(135, 161, 135) 1px;
+  cursor: pointer;
+}
+
+.rightheader button {
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: #c0d647;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.rightheader button:hover {
+  background-color: white;
+  transition: all linear 0.3s;
+}
