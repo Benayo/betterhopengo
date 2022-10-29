@@ -4,16 +4,7 @@ import { Link } from "react-router-dom";
 
 import classes from "./Header.module.css";
 
-const Header = ({
-  listimg,
-  listone,
-  listtwo,
-  listthree,
-  listfour,
-  listfive,
-  rightlist,
-  rightlistbtn,
-}) => {
+const Header = () => {
   // const [modalResponse, setmodalResponse] = useState(false);
 
   // function openmodal() {
@@ -23,6 +14,8 @@ const Header = ({
   // function closemodal() {
   //   setmodalResponse(false);
   // }
+
+  // registerngo;
 
   return (
     <nav>
@@ -37,22 +30,22 @@ const Header = ({
         </Link>
 
         <Link className={classes["nav__li"]} to="/Campaigns">
-          {listtwo}
+          Campaigns
         </Link>
 
         <Link className={classes["nav__li"]} to="/Aboutus">
-          {listthree}
+          About us
         </Link>
         <Link className={classes["nav__li"]} to="/Faq">
-          {listfour}
+          FAQ's
         </Link>
         <Link className={classes["nav__li"]} to="/Blog">
-          {listfive}
+          Blog
         </Link>
       </ul>
 
       <div className={classes["nav__actions"]}>
-        <Link to="">
+        <Link to="/registerngo">
           <button className={`${classes.btn} ${classes["btn__stroke"]}`}>
             Register your NGO
           </button>

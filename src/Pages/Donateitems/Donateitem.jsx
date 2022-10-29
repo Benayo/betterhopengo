@@ -1,95 +1,105 @@
-import React from 'react'
-import './Donateitem.css'
-import Header from '../../components/HeaderF/Header'
+import React from "react";
+import "./Donateitem.css";
+import Header from "../../components/HeaderF/Header";
 
 const Donateitem = () => {
   return (
-    <div className='donateitem'>
+    <div className="donateitem">
       <Header
-        listimg = "./images/Vector.jpg"
-        listone = "Home"
-        listtwo = "Campaigns"
-        listthree = "About Us"
-        listfour = "FAQ's"
-        listfive = "Blog"
-        rightlist = "Register your NGO"
-        rightlistbtn = "Donate Now"
+        listimg="./images/Vector.jpg"
+        listone="Home"
+        listtwo="Campaigns"
+        listthree="About Us"
+        listfour="FAQ's"
+        listfive="Blog"
+        rightlist="Register your NGO"
+        rightlistbtn="Donate Now"
       />
 
-      <div className='orgreenfield'>
+      <div className="orgreenfield">
         <h1>Donate Items</h1>
-        <p>Here you get to read about the latest happenings <br /> about current situations of Rural Areas, NGO's and Fondations, <br /> And the playmakers Coming to their rescue</p>
+        <p>
+          Here you get to read about the latest happenings <br /> about current
+          situations of Rural Areas, NGO's and Fondations, <br /> And the
+          playmakers Coming to their rescue
+        </p>
       </div>
 
-      <div className='lemonorgreenfield'>
-        <form className='itemstrans'>
-          <div className='allto'>
+      <div className="lemonorgreenfield">
+        <form className="itemstrans">
+          <div className="allto">
             <h4>Your Donation</h4>
-            <div className='itemstransbtn'>
+            <div className="itemstransbtn">
               <button>Cash</button>
               <button>Other Items</button>
             </div>
           </div>
-          
-          <div className='iteminput'>
+
+          <div className="iteminput">
             <h4>Donor's contact info</h4>
-            <div className='itemin'>
+            <div className="itemin">
               <input
-                className='itemsinput'
+                className="itemsinput"
                 type="text"
-                placeholder='Enter Donors FullName'
+                placeholder="Enter Donors FullName"
                 required
               />
 
               <input
-                className='itemsinput'
+                className="itemsinput"
                 type="text"
-                placeholder='Enter Donors Phone Number'
+                placeholder="Enter Donors Phone Number"
                 required
               />
             </div>
           </div>
 
-          <div className='lastinputt'>
+          <div className="lastinputt">
             <input
-              className='itemsinput'
+              className="itemsinput"
               type="text"
-              placeholder='Enter Donors Email Address'
+              placeholder="Enter Donors Email Address"
             />
           </div>
 
-          <div className='boldup'>
+          <div className="boldup">
             <h4>Item Details</h4>
             <input
-              className='itemsinput'
+              className="itemsinput"
               type="text"
-              placeholder='Select Item Category'
+              placeholder="Select Item Category"
               required
             />
 
             <input
-              className='itemsinput'
+              className="itemsinput"
               type="text"
-              placeholder='Item Weight (Optional)'
+              placeholder="Item Weight (Optional)"
             />
           </div>
 
-          <div className='fngo'>
+          <div className="fngo">
             <input
-              className='itemsinput'
+              className="itemsinput"
               type="text"
-              placeholder='Select the Foundation/NGO'
+              placeholder="Select the Foundation/NGO"
             />
           </div>
 
-          <div className='itemtext'>
+          <div className="itemtext">
             <h5>Leave a note</h5>
-            <textarea className='messagearea' name="" id="messagearea" cols="30" rows="10"></textarea>
+            <textarea
+              className="messagearea"
+              name=""
+              id="messagearea"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
         </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Donateitem
+export default Donateitem;

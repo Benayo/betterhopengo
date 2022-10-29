@@ -1,6 +1,6 @@
 import React from "react";
 // import "./Sectionone.css";
-import { AiFillPlayCircle } from "react-icons/ai";
+
 import classes from "./Sectionone.module.css";
 import africankidswindow from "../../../../UI/images/africankidswindow.png";
 import donateIcon from "../../../../UI/images/Group.svg";
@@ -25,7 +25,9 @@ const Sectionone = () => {
         <div className="flex justify-center items-center">
           <button className={classes.btn}>Donate Now</button>
 
-          <button className={classes.btn1}>See NGO’s/Foundations</button>
+          <Link to="/ngolist" className={classes.btn1}>
+            See NGO’s/Foundations
+          </Link>
         </div>
       </div>
 
@@ -70,8 +72,6 @@ const Sectionone = () => {
         </div>
       </div>
     </section>
-
-   
   );
 };
 

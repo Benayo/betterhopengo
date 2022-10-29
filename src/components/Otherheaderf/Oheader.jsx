@@ -52,7 +52,7 @@ const Oheader = ({
       </ul>
 
       <div className={classes["nav__actions"]}>
-        <Link to="">
+        <Link to="/registerngo">
           <button className={`${classes.btn} ${classes["btn__stroke"]}`}>
             Register your NGO
           </button>

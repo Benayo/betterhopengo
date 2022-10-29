@@ -1,0 +1,43 @@
+.text--container {
+  @apply pt-32 flex flex-col justify-center items-center;
+}
+
+.text--main {
+  @apply text-[2rem] font-bold text-[#214228] text-center;
+}
+
+.text--sub {
+  @apply text-[1rem] text-[#7F7F7F] text-center;
+}
+
+.container1 {
+  @apply px-6 md:px-12 lg:px-[6.25rem]  mb-[4rem];
+}
+
+.container2 {
+  @apply px-6 md:px-12 lg:px-[6.25rem]  mt-[8rem];
+}
+
+.container3 {
+    @apply px-6 md:px-12 lg:px-[6.25rem]  mt-[8rem];
+  }
+
+.container {
+  @apply mb-[16rem];
+}
+
+.text--container {
+  @apply mb-[3.75rem];
+}
+
+.text--main {
+  @apply text-[2rem]  font-bold  pb-4 text-[#214228];
+}
+
+.text--sub {
+  @apply text-sm text-[#7F7F7F];
+}
+
+.btn1 {
+  @apply mr-4 px-6 py-2 border border-[#214228] rounded-md text-sm hover:bg-[#8BC34A] hover:text-white;
+}

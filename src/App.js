@@ -6,6 +6,8 @@ import Faq from "./Pages/Faqf/Faq";
 import Blog from "./Pages/Blogf/Blog";
 import Donate from "./Pages/Donatef/Donate";
 import Donateitem from "./Pages/Donateitems/Donateitem";
+import NGOlist from "./Pages/NGOList/NGOlist";
+import Registerngo from "./Pages/Registerngo/Registerngo";
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
           <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/Faq" element={<Faq />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/ngolist" element={<NGOlist />} />
           <Route path="/Donate" element={<Donate />} />
           <Route path="/Donateitem" element={<Donateitem />} />
+          <Route path="/registerngo" element={<Registerngo />} />
         </Routes>
       </Router>
     </div>

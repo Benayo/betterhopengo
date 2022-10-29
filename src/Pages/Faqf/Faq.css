@@ -1,3 +1,70 @@
 .faq {
-    border: solid orange 2px;
+  display: grid;
+  padding: 12rem 8rem;
+}
+
+.header {
+  display: grid;
+  /* width: 100%; */
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-color: #214228;
+  margin-bottom: 100px;
+}
+
+.qAndA {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions {
+  width: 100%;
+  display: grid;
+  row-gap: 24px;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.question div {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.mainQuestion {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #214228;
+}
+
+.answers {
+  display: inline-block;
+  width: 100%;
+}
+
+.answers h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #214228;
+  margin-bottom: 16px;
+}
+
+.answers p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #214228;
 }
